@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
 #root{
     height: 300vh;
     overflow-x: hidden;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 `
