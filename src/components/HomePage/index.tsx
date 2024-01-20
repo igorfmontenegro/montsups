@@ -102,7 +102,7 @@ export function HomePage() {
             </span>
             <p>
               Com ingredientes como aminoácidos e antioxidantes, prolonga a
-              capacidade de realizar exercícios e melhora a resistência geral.
+              capacidade de realizar exercícios e melhora a resistência geral!
             </p>
           </div>
         </BenefitsContainer>
