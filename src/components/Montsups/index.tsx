@@ -1,3 +1,4 @@
+import { Flavors } from '../Flavors'
 import { Header } from '../Header'
 import { HomePage } from '../HomePage'
 import { ProductSale } from '../ProductSale'
@@ -8,6 +9,7 @@ export function Montsups() {
       <Header />
       <HomePage />
       <ProductSale />
+      <Flavors />
     </>
   )
 }

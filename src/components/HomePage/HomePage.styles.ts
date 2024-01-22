@@ -29,7 +29,7 @@ export const Range = styled.div`
   align-items: center;
   justify-content: space-evenly;
 
-  height: 11vh;
+  height: 10vh;
   background-color: #68c74f;
   color: #fff;
 
