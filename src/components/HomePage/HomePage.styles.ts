@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  height: 85vh;
   width: 100%;
 `
 
@@ -52,31 +51,9 @@ export const Range = styled.div`
 `
 
 export const Privileges = styled.div`
-  height: 36vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
-`
-
-export const Subtitle = styled.div`
-  text-align: center;
-  margin-top: 30px;
-
-  span {
-    font-style: italic;
-    color: #68c74f;
-    font-weight: 600;
-  }
-
-  h4 {
-    font-size: 1.4em;
-    margin-bottom: 5px;
-  }
-
-  hr {
-    width: 400px;
-    margin: auto;
-    border: 1px solid #68c74f;
-  }
 `
 
 export const BenefitsContainer = styled.div`

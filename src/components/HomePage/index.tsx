@@ -3,8 +3,7 @@ import {
   Container,
   Content,
   Privileges,
-  Range,
-  Subtitle
+  Range
 } from './HomePage.styles'
 
 import Wheys from '../../assets/wheyp.png'
@@ -15,6 +14,7 @@ import Body from '../../assets/body.png'
 import Resistance from '../../assets/resistance.png'
 
 import { Button } from '../Button'
+import { Subtitle } from '../Subtitle'
 
 export function HomePage() {
   return (
@@ -29,7 +29,7 @@ export function HomePage() {
             Transforme sua rotina diária com saúde e vitalidade. Suplementos de
             alta qualidade para impulsionar sua jornada de bem-estar. Escolha
             Montsups, escolha viver melhor.
-          </p>{' '}
+          </p>
           <br />
           <Button type="1" text="DETALHES DO PRODUTO" />
         </div>
@@ -45,7 +45,7 @@ export function HomePage() {
         </div>
 
         <div>
-          <h4> Produtos aprovado pela ANVISA </h4>
+          <h4> Produto aprovado pela ANVISA </h4>
           <span> Suplemento com uma fórmula poderosa e saudável! </span>
         </div>
 
@@ -55,13 +55,11 @@ export function HomePage() {
       </Range>
 
       <Privileges>
-        <Subtitle>
-          <span> Benefícios Incríveis </span>
-          <h4> Em um Único Suplemento </h4>
-
-          <hr />
-        </Subtitle>
-
+        <Subtitle
+          title="Benefícios incríveis"
+          subtitle="Em um Único Suplemento"
+          width="400px"
+        />
         <BenefitsContainer>
           <div>
             <span>
@@ -102,7 +100,7 @@ export function HomePage() {
             </span>
             <p>
               Com ingredientes como aminoácidos e antioxidantes, prolonga a
-              capacidade de realizar exercícios e melhora a resistência geral!
+              capacidade de realizar exercícios e melhora a resistência geral.
             </p>
           </div>
         </BenefitsContainer>
