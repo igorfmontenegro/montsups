@@ -11,7 +11,7 @@ import { BoxFlavor } from '../BoxFlavor'
 
 export function Flavors() {
   return (
-    <Container>
+    <Container id="flavors">
       <Content>
         <Subtitle
           title="Diversos sabores"

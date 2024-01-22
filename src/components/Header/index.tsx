@@ -16,26 +16,26 @@ import Logo from '../../assets/Logo.png'
 export function Header() {
   return (
     <>
-      <Container>
+      <Container id="home">
         <Content>
           <InfosContainer>
             <ul>
-              <a href="">
+              <a href="https://instagram.com">
                 <li>
                   <AiFillInstagram />
                 </li>
               </a>
-              <a href="">
+              <a href="https://facebook.com">
                 <li>
                   <FaFacebook />
                 </li>
               </a>
-              <a href="">
+              <a href="https://twitter.com">
                 <li>
                   <FaSquareXTwitter />
                 </li>
               </a>
-              <a href="">
+              <a href="https://youtube.com">
                 <li>
                   <FaYoutube />
                 </li>
@@ -70,17 +70,17 @@ export function Header() {
 
           <InfosContainer>
             <ul>
-              <a href="">
+              <a href="#home">
                 <li> HOME </li>
               </a>
-              <a href="">
-                <li> SUPLEMENTOS </li>
+              <a href="#benefits">
+                <li> BENEFÍCIOS </li>
               </a>
-              <a href="">
+              <a href="#about">
                 <li> SOBRE </li>
               </a>
-              <a href="">
-                <li> FEATURES </li>
+              <a href="#flavors">
+                <li> SABORES </li>
               </a>
             </ul>
           </InfosContainer>

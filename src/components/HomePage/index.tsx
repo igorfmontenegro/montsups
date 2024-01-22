@@ -54,7 +54,7 @@ export function HomePage() {
         </div>
       </Range>
 
-      <Privileges>
+      <Privileges id="benefits">
         <Subtitle
           title="Benefícios incríveis"
           subtitle="Em um Único Suplemento"

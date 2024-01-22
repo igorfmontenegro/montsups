@@ -12,7 +12,7 @@ import { Button } from '../Button'
 
 export function ProductSale() {
   return (
-    <Container>
+    <Container id="buy">
       <Content>
         <Subtitle title="Está a venda" subtitle="Whey Protein" width="200px" />
 
@@ -68,7 +68,7 @@ export function ProductSale() {
         </ConditionsContainer>
       </Content>
 
-      <VideoContainer>
+      <VideoContainer id="about">
         <iframe
           width="560"
           height="315"

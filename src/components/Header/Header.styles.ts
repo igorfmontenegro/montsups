@@ -53,5 +53,10 @@ export const SubContainer = styled.div`
     color: #000;
     font-size: 1rem;
     font-weight: 600;
+
+    &:hover {
+      color: #68c74f;
+      transition: 0.3s;
+    }
   }
 `
