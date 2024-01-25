@@ -83,10 +83,10 @@ export function ProductSale() {
             No video ao lado temos o renomado <span>Dr Paulo Muzy</span> falando
             sobre o Whey Protein. Descubra como ele pode impulsionar seus
             treinos, promover a recuperação muscular e{' '}
-            <span>contribuir para seus objetivos de saúde e fitness.</span>{' '}
-            Sinta-se capacitado para tomar decisões informadas sobre sua
-            nutrição com o Whey Protein Montsups. Assista agora e inicie sua
-            jornada para um <span>estilo de vida mais saudável e ativo!</span>
+            <span>contribuir para seus objetivos de saúde!</span> Sinta-se
+            capacitado para tomar decisões informadas sobre sua nutrição com o
+            Whey Protein Montsups. Assista agora e inicie sua jornada para um{' '}
+            <span>estilo de vida mais saudável e ativo!</span>
           </p>
         </div>
       </VideoContainer>
