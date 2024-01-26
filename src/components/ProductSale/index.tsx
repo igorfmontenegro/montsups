@@ -86,7 +86,7 @@ export function ProductSale() {
             <span>contribuir para seus objetivos de saúde!</span> Sinta-se
             capacitado para tomar decisões informadas sobre sua nutrição com o
             Whey Protein Montsups. Assista agora e inicie sua jornada para um{' '}
-            <span>estilo de vida mais saudável e ativo!</span>
+            <span>estilo de vida mais saudável e ativo.</span>
           </p>
         </div>
       </VideoContainer>
